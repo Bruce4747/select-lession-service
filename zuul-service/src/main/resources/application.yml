@@ -1,0 +1,7 @@
+server:
+  port: 8080
+zuul:
+  routes:
+    user-service:
+      path: /hello/**
+      url: http://localhost:9000/hello/say
