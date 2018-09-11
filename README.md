@@ -3,6 +3,8 @@
 业余时间完成的文档型项目，目前程序的入口在`user-manager-controller`模块，
 通过`zuul`模块路由到具体服务模块。抽取了`user-service-api`作为公共模块
 
+目前数据库连接的是我个人的阿里云服务器，这个库可以随意更改
+
 技术选型：
 ---
 - Spring boot

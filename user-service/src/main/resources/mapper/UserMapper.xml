@@ -13,14 +13,14 @@
 
     <select id="searchTeacherInfo" resultType="com.eureka.vo.TeacherVO" parameterType="String">
         SELECT
-          TEACHER_ID,
-          USER_NAME,
-          USER_PASSWORD,
-          USER_PHONE,
-          RESEARCH_AREA,
-          USER_SEX,
-          USER_AGE,
-          CREATE_TIME
+          TEACHER_ID AS teacherId,
+          USER_NAME AS userName,
+          USER_PASSWORD AS userPassword,
+          USER_PHONE AS userPhone,
+          RESEARCH_AREA AS researchArea,
+          USER_SEX AS userSex,
+          USER_AGE AS userAge,
+          CREATE_TIME AS createTime
         FROM
           T_USER_TEACHERS
         WHERE
@@ -34,7 +34,7 @@
           (#{studentId},#{userName},#{userPassword},#{userPhone},#{schoolClass})
     </insert>
 
-    <select id="searchStudentInfo" resultType="Map" parameterType="List">
+    <select id="searchStudentInfo" resultType="com.eureka.vo.StudentVO" parameterType="String">
         SELECT
           STUDENT_ID,
           USER_NAME,

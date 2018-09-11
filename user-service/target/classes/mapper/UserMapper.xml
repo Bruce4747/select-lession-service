@@ -4,38 +4,37 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.eureka.dto.UserDAO">
 
-    <insert id="setupNewTeacher" parameterType="com.eureka.vo.TeacherVO">
+    <insert id="registerNewTeacher" parameterType="com.eureka.vo.TeacherVO">
         INSERT IGNORE INTO T_USER_TEACHERS
           (TEACHER_ID,USER_NAME,USER_PASSWORD,USER_PHONE,RESEARCH_AREA)
         VALUE
           (#{teacherId},#{userName},#{userPassword},#{userPhone},#{researchArea})
     </insert>
 
-    <select id="selectTeacherInfoByTeacherId" resultType="com.eureka.vo.TeacherVO" parameterType="String">
+    <select id="searchTeacherInfo" resultType="com.eureka.vo.TeacherVO" parameterType="String">
         SELECT
-          TEACHER_ID,
-          USER_NAME,
-          USER_PASSWORD,
-          USER_PHONE,
-          RESEARCH_AREA,
-          USER_SEX,
-          USER_AGE,
-          CREATE_TIME
+          TEACHER_ID AS teacherId,
+          USER_NAME AS userName,
+          USER_PASSWORD AS userPassword,
+          USER_PHONE AS userPhone,
+          RESEARCH_AREA AS researchArea,
+          USER_SEX AS userSex,
+          USER_AGE AS userAge,
+          CREATE_TIME AS createTime
         FROM
           T_USER_TEACHERS
         WHERE
           TEACHER_ID = #{teacherId}
     </select>
 
-    <insert id="setupNewStudent" parameterType="Map">
+    <insert id="registerNewStudent" parameterType="Map">
          INSERT INTO T_USER_STUDENTS
-          (STUDENT_ID,USER_NAME,USER_PASSWORD,USER_PHONE,SCHOOL_CLASS,USER_SEX,USER_AGE)
+          (STUDENT_ID,USER_NAME,USER_PASSWORD,USER_PHONE,SCHOOL_CLASS)
         VALUE
-          (#{STUDENT_ID},#{USER_NAME},#{USER_PASSWORD},#{USER_PHONE},#{SCHOOL_CLASS},#{USER_SEX},#{USER_AGE})
-
+          (#{studentId},#{userName},#{userPassword},#{userPhone},#{schoolClass})
     </insert>
 
-    <select id="selectStudentInfoByStudentId" resultType="Map" parameterType="List">
+    <select id="searchStudentInfo" resultType="com.eureka.vo.StudentVO" parameterType="String">
         SELECT
           STUDENT_ID,
           USER_NAME,

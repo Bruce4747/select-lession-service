@@ -3,8 +3,6 @@ package com.eureka.vo;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
-import lombok.ToString;
-
 import java.util.Date;
 
 @Getter

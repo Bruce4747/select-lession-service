@@ -13,9 +13,9 @@ public interface UserDAO {
 
 	int registerNewTeacher(TeacherVO teacherVO);
 
+	int registerNewStudent(StudentVO teacherVO);
+
 	TeacherVO searchTeacherInfo(String teacherId);
 
 	StudentVO searchStudentInfo(String studentId);
-
-
 }

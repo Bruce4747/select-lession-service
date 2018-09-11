@@ -1674,3 +1674,852 @@
 2018-09-11 15:01:39.236  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
 2018-09-11 15:01:39.246  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
 2018-09-11 15:01:39.249  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:52:46.089  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 15:52:46.108  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 15:52:46.113  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 15:53:30.014  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 15:53:30.040  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 15:53:30.045  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 15:53:30.510  INFO .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eureka.ServiceApplication for test class com.eureka.service.UserManagerServiceTest
+2018-09-11 15:53:30.540  INFO .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-11 15:53:30.644  INFO .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fa98a66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e0826e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eff876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8dbdac1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e20b53a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158da8e]
+2018-09-11 15:53:32.522  INFO s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d: startup date [Tue Sep 11 15:53:32 CST 2018]; root of context hierarchy
+2018-09-11 15:53:33.215  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:53:33.574  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:33.577  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:33.577  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:33.578  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:33.578  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:53:33.578  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:33.578  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:33.588  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:53:33.660  INFO trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:53:34.478  INFO EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: service-ribbon:0
+2018-09-11 15:53:34.480  INFO c.eureka.service.UserManagerServiceTest  : No active profile set, falling back to default profiles: default
+2018-09-11 15:53:34.490  INFO ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e041f0c: startup date [Tue Sep 11 15:53:34 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:53:35.914  INFO o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec0c4d08-8cb8-368e-9284-61c761e03358
+2018-09-11 15:53:35.985  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:53:36.012  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:36.012  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:36.013  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:36.013  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:53:36.014  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:36.016  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:36.017  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:36.018  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:53:36.030  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:53:36.080  INFO c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-09-11 15:53:36.081  INFO c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-09-11 15:53:36.246  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:53:36.261  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5deee470] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:53:36.882  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-11 15:53:36.927  INFO o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-11 15:53:36.928  INFO org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-11 15:53:37.175  INFO o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-11 15:53:37.176  INFO o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2686 ms
+2018-09-11 15:53:37.466  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-11 15:53:37.470  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-09-11 15:53:37.474  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-11 15:53:37.477  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-11 15:53:37.477  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-11 15:53:37.478  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-11 15:53:37.478  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-11 15:53:38.535  INFO c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-09-11 15:53:38.629  INFO c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-09-11 15:53:38.644  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-09-11 15:53:38.644  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-09-11 15:53:38.644  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-09-11 15:53:38.644  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-09-11 15:53:38.645  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-09-11 15:53:38.645  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-09-11 15:53:38.646  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-09-11 15:53:40.347  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-11 15:53:41.395  INFO s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e041f0c: startup date [Tue Sep 11 15:53:34 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:53:41.534  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerTeacher],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerTeacher(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:53:41.536  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerStudent],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerStudent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:53:41.540  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-11 15:53:41.540  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-11 15:53:41.614  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:53:41.614  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:53:41.750  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:53:42.401  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:53:42.402  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:53:42.413  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:53:42.413  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:53:42.982  INFO o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-11 15:53:43.069  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 62531 (http)
+2018-09-11 15:53:43.073  INFO .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 62531
+2018-09-11 15:53:43.084  INFO o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-11 15:53:43.190  INFO com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-11 15:53:43.345  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-11 15:53:43.345  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-11 15:53:43.575  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-11 15:53:43.576  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-11 15:53:44.049  INFO c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-11 15:53:44.093  INFO com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-11 15:53:44.094  INFO com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-11 15:53:44.094  INFO com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-11 15:53:44.094  INFO com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-11 15:53:44.094  INFO com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-11 15:53:44.094  INFO com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-11 15:53:44.094  INFO com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-11 15:53:44.467  INFO com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-11 15:53:44.470  INFO com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-09-11 15:53:44.473  INFO c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-11 15:53:44.477  INFO com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1536652424477 with initial instances count: 1
+2018-09-11 15:53:44.531  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Registering application service-ribbon with eureka with status UP
+2018-09-11 15:53:44.531  INFO com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652424531, current=UP, previous=STARTING]
+2018-09-11 15:53:44.534  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:53:44.543  INFO c.eureka.service.UserManagerServiceTest  : Started UserManagerServiceTest in 13.586 seconds (JVM running for 16.702)
+2018-09-11 15:53:44.667  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:53:44.916  INFO ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e041f0c: startup date [Tue Sep 11 15:53:34 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:53:44.918  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application service-ribbon with eureka with status DOWN
+2018-09-11 15:53:44.919  WARN com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652424919, current=DOWN, previous=UP]
+2018-09-11 15:53:44.923  INFO com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-09-11 15:53:44.925  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:53:44.926  INFO com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-09-11 15:53:45.017  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - deregister  status: 200
+2018-09-11 15:53:45.030  INFO com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-09-11 15:53:45.033  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-09-11 15:53:45.048  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-11 15:53:45.052  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:54:11.674  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 15:54:11.695  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 15:54:11.699  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 15:54:12.052  INFO .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eureka.ServiceApplication for test class com.eureka.service.UserManagerServiceTest
+2018-09-11 15:54:12.068  INFO .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-11 15:54:12.153  INFO .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fa98a66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e0826e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eff876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8dbdac1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e20b53a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158da8e]
+2018-09-11 15:54:13.737  INFO s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d: startup date [Tue Sep 11 15:54:13 CST 2018]; root of context hierarchy
+2018-09-11 15:54:14.518  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:54:14.889  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:14.892  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:14.892  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:14.893  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:14.893  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:54:14.893  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:14.893  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:14.907  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:54:14.991  INFO trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:54:15.755  INFO EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: service-ribbon:0
+2018-09-11 15:54:15.755  INFO c.eureka.service.UserManagerServiceTest  : No active profile set, falling back to default profiles: default
+2018-09-11 15:54:15.763  INFO ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 15:54:15 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:54:16.958  INFO o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec0c4d08-8cb8-368e-9284-61c761e03358
+2018-09-11 15:54:17.032  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:54:17.059  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:17.059  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:17.060  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:17.060  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:54:17.060  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:17.060  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:17.060  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:17.060  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:54:17.080  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:54:17.182  INFO c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-09-11 15:54:17.183  INFO c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-09-11 15:54:17.342  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:54:17.355  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5deee470] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:54:17.939  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-11 15:54:17.987  INFO o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-11 15:54:17.988  INFO org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-11 15:54:18.241  INFO o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-11 15:54:18.243  INFO o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2480 ms
+2018-09-11 15:54:18.534  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-11 15:54:18.536  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-09-11 15:54:18.541  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-11 15:54:18.541  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-11 15:54:18.541  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-11 15:54:18.542  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-11 15:54:18.542  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-11 15:54:19.554  INFO c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-09-11 15:54:19.631  INFO c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-09-11 15:54:19.645  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-09-11 15:54:19.645  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-09-11 15:54:19.645  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-09-11 15:54:19.645  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-09-11 15:54:19.645  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-09-11 15:54:19.646  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-09-11 15:54:19.647  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-09-11 15:54:21.263  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-11 15:54:22.145  INFO s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 15:54:15 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:54:22.267  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerTeacher],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerTeacher(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:54:22.269  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerStudent],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerStudent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:54:22.272  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-11 15:54:22.273  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-11 15:54:22.334  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:54:22.335  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:54:22.445  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:54:23.014  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:54:23.015  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:54:23.025  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:54:23.026  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:54:23.573  INFO o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-11 15:54:23.657  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 62558 (http)
+2018-09-11 15:54:23.659  INFO .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 62558
+2018-09-11 15:54:23.670  INFO o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-11 15:54:23.753  INFO com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-11 15:54:23.895  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-11 15:54:23.895  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-11 15:54:24.080  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-11 15:54:24.080  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-11 15:54:24.536  INFO c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-11 15:54:24.576  INFO com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-11 15:54:24.577  INFO com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-11 15:54:24.577  INFO com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-11 15:54:24.577  INFO com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-11 15:54:24.577  INFO com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-11 15:54:24.577  INFO com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-11 15:54:24.578  INFO com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-11 15:54:24.962  INFO com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-11 15:54:24.965  INFO com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-09-11 15:54:24.968  INFO c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-11 15:54:24.975  INFO com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1536652464974 with initial instances count: 1
+2018-09-11 15:54:25.026  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Registering application service-ribbon with eureka with status UP
+2018-09-11 15:54:25.026  INFO com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652465026, current=UP, previous=STARTING]
+2018-09-11 15:54:25.028  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:54:25.041  INFO c.eureka.service.UserManagerServiceTest  : Started UserManagerServiceTest in 12.572 seconds (JVM running for 14.59)
+2018-09-11 15:54:25.168  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:54:25.389  INFO ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 15:54:15 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:54:25.390  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application service-ribbon with eureka with status DOWN
+2018-09-11 15:54:25.390  WARN com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652465390, current=DOWN, previous=UP]
+2018-09-11 15:54:25.391  INFO com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-09-11 15:54:25.391  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:54:25.392  INFO com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-09-11 15:54:25.491  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - deregister  status: 200
+2018-09-11 15:54:25.508  INFO com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-09-11 15:54:25.510  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-09-11 15:54:25.513  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:54:25.519  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-11 15:55:09.685  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 15:55:09.700  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 15:55:09.701  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 15:55:10.075  INFO .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eureka.ServiceApplication for test class com.eureka.service.UserManagerServiceTest
+2018-09-11 15:55:10.097  INFO .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-11 15:55:10.164  INFO .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fa98a66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e0826e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eff876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8dbdac1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e20b53a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158da8e]
+2018-09-11 15:55:11.722  INFO s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d: startup date [Tue Sep 11 15:55:11 CST 2018]; root of context hierarchy
+2018-09-11 15:55:12.532  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:55:12.840  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:12.851  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:12.851  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:12.852  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:12.852  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:55:12.852  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:12.852  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:12.865  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:55:12.936  INFO trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:55:13.716  INFO EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: service-ribbon:0
+2018-09-11 15:55:13.718  INFO c.eureka.service.UserManagerServiceTest  : No active profile set, falling back to default profiles: default
+2018-09-11 15:55:13.729  INFO ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b739528: startup date [Tue Sep 11 15:55:13 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:55:15.018  INFO o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec0c4d08-8cb8-368e-9284-61c761e03358
+2018-09-11 15:55:15.168  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:55:15.203  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:15.204  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:15.205  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:15.205  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:55:15.206  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:15.207  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:15.207  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:15.207  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:55:15.225  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:55:15.368  INFO c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-09-11 15:55:15.369  INFO c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-09-11 15:55:15.440  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:55:15.479  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5deee470] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:55:16.275  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-11 15:55:16.349  INFO o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-11 15:55:16.350  INFO org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-11 15:55:16.706  INFO o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-11 15:55:16.707  INFO o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2978 ms
+2018-09-11 15:55:16.994  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-11 15:55:16.996  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-09-11 15:55:17.000  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-11 15:55:17.001  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-11 15:55:17.001  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-11 15:55:17.001  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-11 15:55:17.002  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-11 15:55:18.188  INFO c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-09-11 15:55:18.351  INFO c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-09-11 15:55:18.368  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-09-11 15:55:18.369  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-09-11 15:55:18.369  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-09-11 15:55:18.369  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-09-11 15:55:18.369  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-09-11 15:55:18.369  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-09-11 15:55:18.372  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-09-11 15:55:20.025  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-11 15:55:20.802  INFO s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b739528: startup date [Tue Sep 11 15:55:13 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:55:20.920  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerTeacher],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerTeacher(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:55:20.922  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerStudent],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerStudent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:55:20.925  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-11 15:55:20.926  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-11 15:55:20.985  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:55:20.985  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:55:21.101  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:55:21.770  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:55:21.771  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:55:21.781  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:55:21.781  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:55:22.312  INFO o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-11 15:55:22.393  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 62578 (http)
+2018-09-11 15:55:22.395  INFO .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 62578
+2018-09-11 15:55:22.409  INFO o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-11 15:55:22.495  INFO com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-11 15:55:22.645  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-11 15:55:22.645  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-11 15:55:22.827  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-11 15:55:22.827  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-11 15:55:23.283  INFO c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-11 15:55:23.312  INFO com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-11 15:55:23.312  INFO com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-11 15:55:23.312  INFO com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-11 15:55:23.312  INFO com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-11 15:55:23.312  INFO com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-11 15:55:23.312  INFO com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-11 15:55:23.313  INFO com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-11 15:55:23.657  INFO com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-11 15:55:23.659  INFO com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-09-11 15:55:23.663  INFO c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-11 15:55:23.666  INFO com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1536652523666 with initial instances count: 1
+2018-09-11 15:55:23.724  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Registering application service-ribbon with eureka with status UP
+2018-09-11 15:55:23.724  INFO com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652523724, current=UP, previous=STARTING]
+2018-09-11 15:55:23.727  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:55:23.741  INFO c.eureka.service.UserManagerServiceTest  : Started UserManagerServiceTest in 13.334 seconds (JVM running for 15.691)
+2018-09-11 15:55:23.861  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:55:24.080  INFO ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b739528: startup date [Tue Sep 11 15:55:13 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:55:24.081  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application service-ribbon with eureka with status DOWN
+2018-09-11 15:55:24.082  WARN com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652524082, current=DOWN, previous=UP]
+2018-09-11 15:55:24.083  INFO com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-09-11 15:55:24.083  INFO com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-09-11 15:55:24.132  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - deregister  status: 200
+2018-09-11 15:55:24.164  INFO com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-09-11 15:55:24.168  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-09-11 15:55:24.188  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-11 15:56:48.230  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 15:56:48.275  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 15:56:48.289  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 15:56:48.636  INFO .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eureka.ServiceApplication for test class com.eureka.service.UserManagerServiceTest
+2018-09-11 15:56:48.657  INFO .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-11 15:56:48.741  INFO .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fa98a66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e0826e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eff876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8dbdac1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e20b53a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158da8e]
+2018-09-11 15:56:50.808  INFO s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@44be0077: startup date [Tue Sep 11 15:56:50 CST 2018]; root of context hierarchy
+2018-09-11 15:56:51.974  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:56:52.591  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:52.596  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:52.596  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:52.596  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:52.596  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:56:52.597  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:52.597  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:52.605  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:56:52.779  INFO trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$601f4b25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:56:54.226  INFO EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: service-ribbon:0
+2018-09-11 15:56:54.227  INFO c.eureka.service.UserManagerServiceTest  : No active profile set, falling back to default profiles: default
+2018-09-11 15:56:54.255  INFO ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b739528: startup date [Tue Sep 11 15:56:54 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@44be0077
+2018-09-11 15:56:56.370  INFO o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec0c4d08-8cb8-368e-9284-61c761e03358
+2018-09-11 15:56:56.486  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:56:56.530  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:56.530  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:56.531  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:56.531  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:56:56.531  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:56.531  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:56.531  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:56.532  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:56:56.554  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:56:56.706  INFO c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-09-11 15:56:56.706  INFO c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-09-11 15:56:56.869  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$601f4b25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:56:57.025  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44054828] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:56:57.888  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-11 15:56:57.935  INFO o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-11 15:56:57.935  INFO org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-11 15:56:58.205  INFO o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-11 15:56:58.206  INFO o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3951 ms
+2018-09-11 15:56:58.654  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-11 15:56:58.656  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-09-11 15:56:58.660  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-11 15:56:58.661  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-11 15:56:58.662  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-11 15:56:58.662  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-11 15:56:58.662  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-11 15:56:59.891  INFO c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-09-11 15:56:59.978  INFO c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-09-11 15:57:00.002  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-09-11 15:57:00.003  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-09-11 15:57:00.003  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-09-11 15:57:00.003  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-09-11 15:57:00.003  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-09-11 15:57:00.004  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-09-11 15:57:00.005  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-09-11 15:57:01.960  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-11 15:57:02.819  INFO s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b739528: startup date [Tue Sep 11 15:56:54 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@44be0077
+2018-09-11 15:57:02.955  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerTeacher],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerTeacher(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:57:02.957  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerStudent],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerStudent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:57:02.964  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-11 15:57:02.965  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-11 15:57:03.024  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:57:03.024  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:57:03.145  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:57:03.738  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:57:03.738  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:57:03.749  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:57:03.749  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:57:04.279  INFO o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-11 15:57:04.375  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 62643 (http)
+2018-09-11 15:57:04.377  INFO .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 62643
+2018-09-11 15:57:04.390  INFO o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-11 15:57:04.477  INFO com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-11 15:57:04.610  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-11 15:57:04.611  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-11 15:57:04.826  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-11 15:57:04.826  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-11 15:57:05.284  INFO c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-11 15:57:05.329  INFO com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-11 15:57:05.330  INFO com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-11 15:57:05.330  INFO com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-11 15:57:05.330  INFO com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-11 15:57:05.330  INFO com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-11 15:57:05.330  INFO com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-11 15:57:05.330  INFO com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-11 15:57:05.599  INFO com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-11 15:57:05.603  INFO com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-09-11 15:57:05.607  INFO c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-11 15:57:05.612  INFO com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1536652625612 with initial instances count: 0
+2018-09-11 15:57:05.674  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Registering application service-ribbon with eureka with status UP
+2018-09-11 15:57:05.676  INFO com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652625676, current=UP, previous=STARTING]
+2018-09-11 15:57:05.678  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:57:05.696  INFO c.eureka.service.UserManagerServiceTest  : Started UserManagerServiceTest in 16.598 seconds (JVM running for 19.361)
+2018-09-11 15:57:05.829  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:57:06.180  INFO ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b739528: startup date [Tue Sep 11 15:56:54 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@44be0077
+2018-09-11 15:57:06.183  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application service-ribbon with eureka with status DOWN
+2018-09-11 15:57:06.184  WARN com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652626184, current=DOWN, previous=UP]
+2018-09-11 15:57:06.187  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:57:06.187  INFO com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-09-11 15:57:06.190  INFO com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-09-11 15:57:06.276  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - deregister  status: 200
+2018-09-11 15:57:06.295  INFO com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-09-11 15:57:06.298  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-09-11 15:57:06.311  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-11 15:57:06.313  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:58:51.099  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 15:58:51.120  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 15:58:51.122  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 15:58:51.455  INFO .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eureka.ServiceApplication for test class com.eureka.service.UserManagerServiceTest
+2018-09-11 15:58:51.485  INFO .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-11 15:58:51.629  INFO .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fa98a66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e0826e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eff876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8dbdac1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e20b53a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158da8e]
+2018-09-11 15:58:53.847  INFO s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d: startup date [Tue Sep 11 15:58:53 CST 2018]; root of context hierarchy
+2018-09-11 15:58:54.543  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:58:54.873  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:54.877  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:54.880  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:54.880  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:54.880  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:58:54.880  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:54.881  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:54.890  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:58:54.973  INFO trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:58:55.785  INFO EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: service-ribbon:0
+2018-09-11 15:58:55.786  INFO c.eureka.service.UserManagerServiceTest  : No active profile set, falling back to default profiles: default
+2018-09-11 15:58:55.795  INFO ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 15:58:55 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:58:57.158  INFO o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec0c4d08-8cb8-368e-9284-61c761e03358
+2018-09-11 15:58:57.269  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 15:58:57.301  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:57.301  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:57.301  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:57.302  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 15:58:57.303  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:57.303  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:57.303  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:57.304  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 15:58:57.319  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 15:58:57.425  INFO c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-09-11 15:58:57.426  INFO c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-09-11 15:58:57.540  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:58:57.555  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5deee470] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 15:58:58.158  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-11 15:58:58.214  INFO o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-11 15:58:58.216  INFO org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-11 15:58:58.462  INFO o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-11 15:58:58.464  INFO o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2669 ms
+2018-09-11 15:58:58.779  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-11 15:58:58.782  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-09-11 15:58:58.789  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-11 15:58:58.798  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-11 15:58:58.798  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-11 15:58:58.798  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-11 15:58:58.799  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-11 15:58:59.798  INFO c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-09-11 15:58:59.881  INFO c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-09-11 15:58:59.896  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-09-11 15:58:59.896  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-09-11 15:58:59.897  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-09-11 15:58:59.897  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-09-11 15:58:59.897  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-09-11 15:58:59.897  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-09-11 15:58:59.898  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-09-11 15:59:01.719  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-11 15:59:02.737  INFO s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 15:58:55 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:59:02.879  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerTeacher],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerTeacher(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:59:02.880  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerStudent],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerStudent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 15:59:02.886  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-11 15:59:02.888  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-11 15:59:02.941  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:59:02.942  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:59:03.052  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 15:59:03.759  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:59:03.759  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:59:03.776  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 15:59:03.776  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 15:59:04.622  INFO o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-11 15:59:04.698  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 62680 (http)
+2018-09-11 15:59:04.700  INFO .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 62680
+2018-09-11 15:59:04.723  INFO o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-11 15:59:04.859  INFO com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-11 15:59:04.982  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-11 15:59:04.982  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-11 15:59:05.206  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-11 15:59:05.207  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-11 15:59:05.728  INFO c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-11 15:59:05.793  INFO com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-11 15:59:05.793  INFO com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-11 15:59:05.793  INFO com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-11 15:59:05.793  INFO com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-11 15:59:05.793  INFO com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-11 15:59:05.794  INFO com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-11 15:59:05.794  INFO com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-11 15:59:06.195  INFO com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-11 15:59:06.199  INFO com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-09-11 15:59:06.204  INFO c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-11 15:59:06.209  INFO com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1536652746209 with initial instances count: 1
+2018-09-11 15:59:06.293  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Registering application service-ribbon with eureka with status UP
+2018-09-11 15:59:06.293  INFO com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652746293, current=UP, previous=STARTING]
+2018-09-11 15:59:06.299  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:59:06.312  INFO c.eureka.service.UserManagerServiceTest  : Started UserManagerServiceTest in 14.29 seconds (JVM running for 16.623)
+2018-09-11 15:59:06.439  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 15:59:06.792  INFO ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 15:58:55 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 15:59:06.793  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application service-ribbon with eureka with status DOWN
+2018-09-11 15:59:06.794  WARN com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536652746794, current=DOWN, previous=UP]
+2018-09-11 15:59:06.794  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 15:59:06.795  INFO com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-09-11 15:59:06.801  INFO com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-09-11 15:59:06.891  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - deregister  status: 200
+2018-09-11 15:59:06.903  INFO com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-09-11 15:59:06.905  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-09-11 15:59:06.916  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-11 15:59:06.929  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 16:04:42.455  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 16:04:42.473  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 16:04:42.476  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 16:04:42.849  INFO .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eureka.ServiceApplication for test class com.eureka.service.UserManagerServiceTest
+2018-09-11 16:04:42.875  INFO .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-11 16:04:42.997  INFO .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fa98a66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e0826e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eff876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8dbdac1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e20b53a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158da8e]
+2018-09-11 16:04:44.801  INFO s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d: startup date [Tue Sep 11 16:04:44 CST 2018]; root of context hierarchy
+2018-09-11 16:04:45.653  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 16:04:46.001  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:46.008  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:46.008  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:46.008  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:46.008  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 16:04:46.009  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:46.009  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:46.022  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 16:04:46.096  INFO trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:04:47.137  INFO EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: service-ribbon:0
+2018-09-11 16:04:47.138  INFO c.eureka.service.UserManagerServiceTest  : No active profile set, falling back to default profiles: default
+2018-09-11 16:04:47.149  INFO ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 16:04:47 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:04:48.651  INFO o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec0c4d08-8cb8-368e-9284-61c761e03358
+2018-09-11 16:04:48.743  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 16:04:48.773  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:48.773  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:48.773  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:48.773  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 16:04:48.774  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:48.774  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:48.774  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:48.774  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:04:48.790  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 16:04:48.862  INFO c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-09-11 16:04:48.880  INFO c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-09-11 16:04:49.048  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:04:49.061  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5deee470] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:04:49.763  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-11 16:04:49.819  INFO o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-11 16:04:49.820  INFO org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-11 16:04:50.109  INFO o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-11 16:04:50.110  INFO o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2961 ms
+2018-09-11 16:04:50.407  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-11 16:04:50.412  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-09-11 16:04:50.419  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-11 16:04:50.419  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-11 16:04:50.420  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-11 16:04:50.420  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-11 16:04:50.420  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-11 16:04:51.576  INFO c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-09-11 16:04:51.670  INFO c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-09-11 16:04:51.684  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-09-11 16:04:51.684  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-09-11 16:04:51.685  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-09-11 16:04:51.685  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-09-11 16:04:51.685  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-09-11 16:04:51.686  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-09-11 16:04:51.687  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-09-11 16:04:53.506  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-11 16:04:54.510  INFO s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 16:04:47 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:04:54.632  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerTeacher],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerTeacher(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 16:04:54.634  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerStudent],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerStudent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 16:04:54.637  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-11 16:04:54.638  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-11 16:04:54.686  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:04:54.686  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:04:54.814  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:04:55.478  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 16:04:55.478  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 16:04:55.488  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 16:04:55.488  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 16:04:56.410  INFO o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-11 16:04:56.498  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 63045 (http)
+2018-09-11 16:04:56.500  INFO .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 63045
+2018-09-11 16:04:56.513  INFO o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-11 16:04:56.612  INFO com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-11 16:04:56.770  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-11 16:04:56.770  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-11 16:04:57.026  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-11 16:04:57.026  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-11 16:04:57.671  INFO c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-11 16:04:57.712  INFO com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-11 16:04:57.713  INFO com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-11 16:04:57.713  INFO com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-11 16:04:57.713  INFO com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-11 16:04:57.714  INFO com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-11 16:04:57.714  INFO com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-11 16:04:57.714  INFO com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-11 16:04:58.122  INFO com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-11 16:04:58.126  INFO com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-09-11 16:04:58.130  INFO c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-11 16:04:58.135  INFO com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1536653098134 with initial instances count: 1
+2018-09-11 16:04:58.181  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Registering application service-ribbon with eureka with status UP
+2018-09-11 16:04:58.181  INFO com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536653098181, current=UP, previous=STARTING]
+2018-09-11 16:04:58.187  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 16:04:58.199  INFO c.eureka.service.UserManagerServiceTest  : Started UserManagerServiceTest in 14.818 seconds (JVM running for 17.476)
+2018-09-11 16:04:58.323  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 16:04:58.545  INFO ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d526ad9: startup date [Tue Sep 11 16:04:47 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:04:58.550  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application service-ribbon with eureka with status DOWN
+2018-09-11 16:04:58.551  WARN com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536653098551, current=DOWN, previous=UP]
+2018-09-11 16:04:58.552  INFO com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-09-11 16:04:58.553  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 16:04:58.554  INFO com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-09-11 16:04:58.642  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - deregister  status: 200
+2018-09-11 16:04:58.658  INFO com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-09-11 16:04:58.659  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-09-11 16:04:58.670  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-11 16:04:58.689  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 16:05:23.725  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 16:05:23.740  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 16:05:23.743  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 16:05:24.033  INFO .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eureka.ServiceApplication for test class com.eureka.service.UserManagerServiceTest
+2018-09-11 16:05:24.065  INFO .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-11 16:05:24.122  INFO .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fa98a66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e0826e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eff876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8dbdac1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e20b53a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158da8e]
+2018-09-11 16:05:25.941  INFO s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d: startup date [Tue Sep 11 16:05:25 CST 2018]; root of context hierarchy
+2018-09-11 16:05:26.776  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 16:05:27.130  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:27.132  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:27.133  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:27.133  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:27.133  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 16:05:27.133  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:27.133  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:27.142  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 16:05:27.210  INFO trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:05:28.068  INFO EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: service-ribbon:0
+2018-09-11 16:05:28.069  INFO c.eureka.service.UserManagerServiceTest  : No active profile set, falling back to default profiles: default
+2018-09-11 16:05:28.097  INFO ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28fa700e: startup date [Tue Sep 11 16:05:28 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:05:29.410  INFO o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec0c4d08-8cb8-368e-9284-61c761e03358
+2018-09-11 16:05:29.519  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 16:05:29.546  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:29.546  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:29.546  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:29.546  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 16:05:29.546  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:29.546  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:29.547  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:29.547  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:05:29.573  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 16:05:29.669  INFO c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-09-11 16:05:29.671  INFO c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-09-11 16:05:29.782  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:05:29.796  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5deee470] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:05:30.393  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-11 16:05:30.440  INFO o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-11 16:05:30.440  INFO org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-11 16:05:30.679  INFO o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-11 16:05:30.680  INFO o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2583 ms
+2018-09-11 16:05:30.954  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-11 16:05:30.956  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-09-11 16:05:30.959  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-11 16:05:30.959  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-11 16:05:30.960  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-11 16:05:30.960  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-11 16:05:30.960  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-11 16:05:31.917  INFO c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-09-11 16:05:32.010  INFO c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-09-11 16:05:32.025  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-09-11 16:05:32.025  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-09-11 16:05:32.025  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-09-11 16:05:32.025  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-09-11 16:05:32.026  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-09-11 16:05:32.026  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-09-11 16:05:32.026  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-09-11 16:05:33.706  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-11 16:05:34.669  INFO s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28fa700e: startup date [Tue Sep 11 16:05:28 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:05:34.794  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerTeacher],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerTeacher(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 16:05:34.796  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerStudent],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerStudent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 16:05:34.799  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-11 16:05:34.800  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-11 16:05:34.853  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:05:34.853  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:05:34.956  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:05:35.540  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 16:05:35.540  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 16:05:35.550  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 16:05:35.550  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 16:05:36.144  INFO o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-11 16:05:36.224  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 63068 (http)
+2018-09-11 16:05:36.226  INFO .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 63068
+2018-09-11 16:05:36.249  INFO o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-11 16:05:36.340  INFO com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-11 16:05:36.475  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-11 16:05:36.476  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-11 16:05:36.685  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-11 16:05:36.686  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-11 16:05:37.167  INFO c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-11 16:05:37.203  INFO com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-11 16:05:37.203  INFO com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-11 16:05:37.204  INFO com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-11 16:05:37.204  INFO com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-11 16:05:37.204  INFO com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-11 16:05:37.204  INFO com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-11 16:05:37.204  INFO com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-11 16:05:37.599  INFO com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-11 16:05:37.603  INFO com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-09-11 16:05:37.607  INFO c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-11 16:05:37.614  INFO com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1536653137614 with initial instances count: 1
+2018-09-11 16:05:37.670  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Registering application service-ribbon with eureka with status UP
+2018-09-11 16:05:37.670  INFO com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536653137670, current=UP, previous=STARTING]
+2018-09-11 16:05:37.674  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 16:05:37.687  INFO c.eureka.service.UserManagerServiceTest  : Started UserManagerServiceTest in 13.32 seconds (JVM running for 15.46)
+2018-09-11 16:05:37.809  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 16:05:38.057  INFO ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28fa700e: startup date [Tue Sep 11 16:05:28 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:05:38.059  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application service-ribbon with eureka with status DOWN
+2018-09-11 16:05:38.059  WARN com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536653138059, current=DOWN, previous=UP]
+2018-09-11 16:05:38.061  INFO com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-09-11 16:05:38.061  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 16:05:38.063  INFO com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-09-11 16:05:38.163  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - deregister  status: 200
+2018-09-11 16:05:38.180  INFO com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-09-11 16:05:38.183  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-09-11 16:05:38.194  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 16:05:38.196  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-11 16:06:41.168  INFO .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eureka.service.UserManagerServiceTest], using SpringBootContextLoader
+2018-09-11 16:06:41.182  INFO o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eureka.service.UserManagerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-11 16:06:41.183  INFO t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eureka.service.UserManagerServiceTest]: UserManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-11 16:06:41.517  INFO .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eureka.ServiceApplication for test class com.eureka.service.UserManagerServiceTest
+2018-09-11 16:06:41.537  INFO .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-11 16:06:41.601  INFO .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fa98a66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e0826e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eff876, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8dbdac1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e20b53a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@158da8e]
+2018-09-11 16:06:43.106  INFO s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d: startup date [Tue Sep 11 16:06:43 CST 2018]; root of context hierarchy
+2018-09-11 16:06:43.967  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 16:06:44.310  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:44.313  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:44.314  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:44.314  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:44.315  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 16:06:44.315  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:44.319  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:44.336  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 16:06:44.413  INFO trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:06:45.282  INFO EnableEncryptablePropertiesConfiguration : Bootstraping jasypt-string-boot auto configuration in context: service-ribbon:0
+2018-09-11 16:06:45.283  INFO c.eureka.service.UserManagerServiceTest  : No active profile set, falling back to default profiles: default
+2018-09-11 16:06:45.319  INFO ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41de5768: startup date [Tue Sep 11 16:06:45 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:06:47.932  INFO o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec0c4d08-8cb8-368e-9284-61c761e03358
+2018-09-11 16:06:48.013  INFO ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-09-11 16:06:48.047  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:48.048  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:48.048  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:48.048  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-09-11 16:06:48.048  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:48.048  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:48.049  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:48.049  INFO c.u.j.EncryptablePropertySourceConverter : Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-09-11 16:06:48.064  INFO f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-11 16:06:48.167  INFO c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-09-11 16:06:48.168  INFO c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-09-11 16:06:48.328  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7a08e76d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:06:48.359  INFO trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5deee470] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-11 16:06:49.761  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-11 16:06:49.875  INFO o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-11 16:06:49.879  INFO org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-11 16:06:50.254  INFO o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-11 16:06:50.265  INFO o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4946 ms
+2018-09-11 16:06:50.814  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-11 16:06:50.848  INFO o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-09-11 16:06:50.970  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-11 16:06:50.971  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-11 16:06:50.981  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-11 16:06:50.982  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-11 16:06:50.982  INFO o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-11 16:06:52.221  INFO c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-09-11 16:06:52.329  INFO c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-09-11 16:06:52.350  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-09-11 16:06:52.351  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-09-11 16:06:52.351  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-09-11 16:06:52.351  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-09-11 16:06:52.351  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-09-11 16:06:52.351  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-09-11 16:06:52.352  INFO c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-09-11 16:06:54.081  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-11 16:06:54.911  INFO s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41de5768: startup date [Tue Sep 11 16:06:45 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:06:55.034  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerTeacher],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerTeacher(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 16:06:55.036  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerStudent],methods=[POST]}" onto public com.eureka.dto.Response com.eureka.controller.UserLoginController.registerStudent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-09-11 16:06:55.039  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-11 16:06:55.040  INFO s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-11 16:06:55.089  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:06:55.089  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:06:55.213  INFO o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-11 16:06:55.836  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 16:06:55.836  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 16:06:55.847  WARN c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-11 16:06:55.848  INFO c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-11 16:06:56.404  INFO o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-11 16:06:56.483  INFO s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 63136 (http)
+2018-09-11 16:06:56.484  INFO .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 63136
+2018-09-11 16:06:56.497  INFO o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-11 16:06:56.579  INFO com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-11 16:06:56.718  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-11 16:06:56.718  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-11 16:06:56.913  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-11 16:06:56.913  INFO c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-11 16:06:57.363  INFO c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-11 16:06:57.396  INFO com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-11 16:06:57.397  INFO com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-11 16:06:57.397  INFO com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-11 16:06:57.397  INFO com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-11 16:06:57.398  INFO com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-11 16:06:57.398  INFO com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-11 16:06:57.398  INFO com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-11 16:06:57.772  INFO com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-11 16:06:57.775  INFO com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2018-09-11 16:06:57.780  INFO c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-11 16:06:57.784  INFO com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1536653217784 with initial instances count: 1
+2018-09-11 16:06:57.837  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Registering application service-ribbon with eureka with status UP
+2018-09-11 16:06:57.837  INFO com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536653217837, current=UP, previous=STARTING]
+2018-09-11 16:06:57.840  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 16:06:57.849  INFO c.eureka.service.UserManagerServiceTest  : Started UserManagerServiceTest in 15.998 seconds (JVM running for 18.11)
+2018-09-11 16:06:57.974  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
+2018-09-11 16:06:58.142  INFO ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41de5768: startup date [Tue Sep 11 16:06:45 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2205a05d
+2018-09-11 16:06:58.143  INFO o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application service-ribbon with eureka with status DOWN
+2018-09-11 16:06:58.143  WARN com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1536653218143, current=DOWN, previous=UP]
+2018-09-11 16:06:58.144  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0: registering service...
+2018-09-11 16:06:58.144  INFO com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-09-11 16:06:58.144  INFO com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-09-11 16:06:58.235  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - deregister  status: 200
+2018-09-11 16:06:58.253  INFO com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-09-11 16:06:58.255  INFO o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-09-11 16:06:58.266  INFO com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-11 16:06:58.267  INFO com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-RIBBON/1.2.4.243:service-ribbon:0 - registration status: 204
