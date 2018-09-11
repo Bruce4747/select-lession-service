@@ -1,5 +1,6 @@
 package com.eureka.dto;
 
+import com.eureka.vo.CacheVO;
 import lombok.Data;
 
 @Data
@@ -52,6 +53,14 @@ public class Response<T> {
 	 */
 	public static final Response<String> HTTP_CONNECTION_TIME = new Response<>(3009000,"网络连接超时");
 
+	/**
+	 * 400 - 权限相关
+	 */
+	public Response(CacheVO cacheVO) {
+		this.code = 9102;
+		this.desc = cacheVO.getChannelId();
+		this.desc = "访问权限为:" + cacheVO.getLevel();
+	}
 	/**
 	 * 500 - 用户相关异常
 	 */

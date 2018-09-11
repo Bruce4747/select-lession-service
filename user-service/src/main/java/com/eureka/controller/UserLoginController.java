@@ -22,4 +22,9 @@ public class UserLoginController {
 	public Response registerStudent(String schoolID, String studentName, String userPassword, String userPhone, String schoolClass){
 		return userManagerService.registerStudent(schoolID, studentName, userPassword, userPhone, schoolClass);
 	}
+
+	@PostMapping("/login")
+	public Response login(String loginCode, String id, String userPassword){
+		return userManagerService.login(loginCode, id, userPassword);
+	}
 }

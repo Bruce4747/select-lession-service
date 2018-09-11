@@ -2,7 +2,7 @@ package com.eureka.service;
 
 import com.eureka.OpenApi.UserManagerApi;
 import com.eureka.dto.Response;
-import com.eureka.dto.UserDAO;
+import com.eureka.dao.UserDAO;
 import com.eureka.util.CommonUtil;
 import com.eureka.vo.StudentVO;
 import com.eureka.vo.TeacherVO;

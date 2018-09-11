@@ -1,4 +1,4 @@
-package com.eureka.dto;
+package com.eureka.dao;
 
 import com.eureka.vo.StudentVO;
 import com.eureka.vo.TeacherVO;
