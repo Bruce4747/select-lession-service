@@ -1,4 +1,4 @@
-package com.eureka.OpenApi;
+package com.eureka.service.Interface;
 
 import com.eureka.dto.Response;
 

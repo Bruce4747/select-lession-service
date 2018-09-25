@@ -1,6 +1,6 @@
 package com.eureka.service;
 
-import com.eureka.OpenApi.OauthApi;
+import com.eureka.service.Interface.OauthApi;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -28,6 +28,7 @@ logging:
       springframework:
         web: INFO
     Hibernate: INFO
+  config: classpath:logback.xml
 
 eureka:
   instance:

@@ -838,7 +838,7 @@ Caused by: java.io.EOFException: Can not read response from server. Expected to 
 
 The last packet successfully received from the server was 990,614 milliseconds ago.  The last packet sent successfully to the server was 18,768 milliseconds ago.
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserAuthorityByUserName-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserAuthorityByUserName-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT authority         FROM authorities          where username = ?
 ### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
@@ -1199,7 +1199,7 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 [2m2018-08-21 13:22:35.980[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -1299,7 +1299,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:36.741[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -1399,7 +1399,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:38.396[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -1499,7 +1499,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:39.257[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -1599,7 +1599,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:40.009[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -1699,7 +1699,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:43.261[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -1799,7 +1799,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:44.139[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -1899,7 +1899,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:44.938[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -1999,7 +1999,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:45.760[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2099,7 +2099,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:46.441[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2199,7 +2199,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:47.104[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2299,7 +2299,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:47.778[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2399,7 +2399,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:48.499[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2499,7 +2499,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:49.272[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2599,7 +2599,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:49.976[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2699,7 +2699,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:50.760[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2799,7 +2799,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:51.644[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2897,7 +2897,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:52.347[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -2995,7 +2995,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:53.084[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -3093,7 +3093,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:53.813[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -3191,7 +3191,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:22:54.601[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -3289,7 +3289,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:23:00.643[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -3387,7 +3387,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:23:01.634[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -3485,7 +3485,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:23:10.867[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field list is ambiguous
@@ -3705,7 +3705,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in field li
 [2m2018-08-21 13:24:42.635[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in where clause is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in where clause is ambiguous
@@ -3805,7 +3805,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in where cl
 [2m2018-08-21 13:24:53.976[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in where clause is ambiguous
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a,           authorities b         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'username' in where clause is ambiguous
@@ -4029,7 +4029,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'username' in where cl
 [2m2018-08-21 13:25:47.482[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
 ### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
@@ -4129,7 +4129,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 [2m2018-08-21 13:25:49.784[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
 ### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
@@ -4229,7 +4229,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 [2m2018-08-21 13:25:50.686[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
 ### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
@@ -4329,7 +4329,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 [2m2018-08-21 13:25:51.628[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
 ### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
@@ -4429,7 +4429,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 [2m2018-08-21 13:25:52.973[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
 ### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
@@ -4529,7 +4529,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 [2m2018-08-21 13:26:38.431[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
 ### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
@@ -4629,7 +4629,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 [2m2018-08-21 13:26:40.567[0;39m [31mERROR[0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
 ### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'
 ### The error may exist in file [/Users/eddie/Documents/IdeaProject/select-lession-serivce/user-service/target/classes/mapper/UserMapper.xml]
-### The error may involve com.eureka.dto.UserDAO.getUserByAll-Inline
+### The error may involve com.eureka.dao.UserDAO.getUserByAll-Inline
 ### The error occurred while setting parameters
 ### SQL: SELECT           id,a.username,password,enabled,phone,email,authority         FROM           users a         WHERE           username=? OR           phone = ? OR           email = ?
 ### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'authority' in 'field list'

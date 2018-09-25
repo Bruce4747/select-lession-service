@@ -1,7 +1,30 @@
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+    Hibernate: INFO
+  config: classpath:logback.xml
 server:
   port: 8080
+  session:
+    timeout: 60
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://47.96.29.8:9010/eureka/
+spring:
+  application:
+    name: zuul-server
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
 zuul:
   routes:
-    user-service:
-      path: /hello/**
-      url: http://localhost:9000/hello/say
+    course:
+      path: /test/**
+      url: http://localhost:9011/
+    user:
+      path: /user/**
+      url: http://localhost:9002/

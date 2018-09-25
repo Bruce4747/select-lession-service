@@ -17,26 +17,27 @@ public class ServiceProvider implements IServiceProvider {
 
 	@Override
 	@HystrixCommand(fallbackMethod = "Error")
-	public Response registerStudent() {
+	public Response registerStudent(String param) {
 		StudentVO studentVO = new StudentVO();
 		return restTemplate.postForObject("http://SERVICE-RIBBON/registerStudent", studentVO, Response.class);
 	}
 
 	@Override
 	@HystrixCommand(fallbackMethod = "Error")
-	public Response registerTeacher() {
+	public Response registerTeacher(String param) {
 		TeacherVO teacherVO = new TeacherVO();
 		return restTemplate.postForObject("http://SERVICE-RIBBON/registerTeacher", teacherVO, Response.class);
 	}
 
 	@Override
 	@HystrixCommand(fallbackMethod = "Error")
-	public Response login() {
+	public Response login(String param) {
 		TeacherVO teacherVO = new TeacherVO();
 		return restTemplate.postForObject("http://SERVICE-RIBBON/login", teacherVO, Response.class);
 	}
 
-	public Response Error() {
+	@Override
+	public Response Error(String res) {
 		return Response.MICRO_SERVICE_UNUSE;
 	}
 }

@@ -4,8 +4,20 @@ server:
 eureka:
   instance:
     hostname: localhost
+
+  server:
+    eviction-interval-timer-in-ms: 5000
+
   client:
     registerWithEureka: false
     fetchRegistry: false
+
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+    Hibernate: INFO
+  config: classpath:logback.xml

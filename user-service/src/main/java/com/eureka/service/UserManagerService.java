@@ -1,6 +1,6 @@
 package com.eureka.service;
 
-import com.eureka.OpenApi.UserManagerApi;
+import com.eureka.service.Interface.UserManagerApi;
 import com.eureka.dto.Response;
 import com.eureka.dao.UserDAO;
 import com.eureka.util.CommonUtil;
@@ -31,10 +31,9 @@ public class UserManagerService implements UserManagerApi {
 	 */
 	@Override
 	public Response registerTeacher(String schoolID, String teacherName, String userPassword, String userPhone,String researchArea) {
-		String teacherId = CommonUtil.generateTeacherId(schoolID);
-		String md5Password = CommonUtil.md5Str(userPassword);
-
 		try{
+			String teacherId = CommonUtil.generateTeacherId(schoolID);
+			String md5Password = CommonUtil.md5Str(userPassword);
 			TeacherVO teacherVO = new TeacherVO(teacherId,teacherName,md5Password,userPhone,researchArea);
 			int count = userDAO.registerNewTeacher(teacherVO);
 			if (count > 0){
@@ -56,10 +55,9 @@ public class UserManagerService implements UserManagerApi {
 	 */
 	@Override
 	public Response registerStudent(String schoolID, String studentName, String userPassword, String userPhone, String schoolClass) {
-		String studentId = CommonUtil.generateTeacherId(schoolID);
-		String md5Password = CommonUtil.md5Str(userPassword);
-
 		try{
+			String studentId = CommonUtil.generateTeacherId(schoolID);
+			String md5Password = CommonUtil.md5Str(userPassword);
 			StudentVO studentVO = new StudentVO(studentName,md5Password,userPhone,studentId,schoolClass);
 			int count = userDAO.registerNewStudent(studentVO);
 			if (count > 0){

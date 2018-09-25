@@ -10,5 +10,5 @@ public interface IServiceProvider {
 
 	Response login(String param);
 
-
+	Response Error(String res);
 }

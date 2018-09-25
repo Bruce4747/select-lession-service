@@ -54,6 +54,13 @@
             <version>2.0.0</version>
         </dependency>
 
+        <!--<dependency>-->
+        <!--<groupId>org.bouncycastle</groupId>-->
+        <!--<artifactId>bcprov-jdk15on</artifactId>-->
+        <!--<version>1.59</version>-->
+        <!--</dependency>-->
+
+
         <!-- Spring Boot 热部署 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
